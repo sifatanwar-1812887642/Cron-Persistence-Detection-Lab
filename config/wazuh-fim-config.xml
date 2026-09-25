@@ -1,0 +1,5 @@
+<!-- Add these entries inside the <syscheck> section of /var/ossec/etc/ossec.conf -->
+<frequency>60</frequency>
+<directories check_all="yes" realtime="yes">/etc/cron.d</directories>
+<directories check_all="yes">/etc/crontab</directories>
+<directories check_all="yes" realtime="yes">/var/spool/cron</directories>
